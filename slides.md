@@ -54,39 +54,10 @@ def area_circle(r):
 Mathematical Equation (Required)
 Time Complexity of Merge Sort:
 
-𝑇
-(
-𝑛
-)
-=
-2
-𝑇
-(
-𝑛
-2
-)
-+
-𝑛
-T(n)=2T( 
-2
-n
-​
- )+n
-Solving gives:
+$$ 
+T(n) = 2T\left(\frac{n}{2}\right) + n
+$$
 
-𝑇
-(
-𝑛
-)
-=
-𝑂
-(
-𝑛
-log
-⁡
-𝑛
-)
-T(n)=O(nlogn)
 Thank You
 Email: 23f1001080@ds.study.iitm.ac.in
 
