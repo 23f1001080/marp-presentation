@@ -1,50 +1,94 @@
 ---
 marp: true
 title: Product Documentation
-author: Sakshi / 23f1001080@ds.study.iitm.ac.in
-theme: gaia
+author: Sakshi
 paginate: true
+theme: gaia
+---
+
+# Product Documentation  
+### Created by: **23f1001080@ds.study.iitm.ac.in**
+
 ---
 
 <!-- _class: lead -->
 
-# Product Documentation  
-### Marp Presentation  
-**Email:** 23f1001080@ds.study.iitm.ac.in
+# Overview  
+This presentation demonstrates Marp features:
+- Custom theme  
+- Background images  
+- Styling  
+- LaTeX mathematics  
+- Page numbers  
 
 ---
 
-<!-- _backgroundColor: #f0f8ff -->
-
-# Custom Theme Example  
-
+<!-- Custom styling -->
 <style>
 section {
   color: #003366;
 }
 h1 {
-  color: #990000;
+  color: #cc0000;
 }
 </style>
 
-This slide demonstrates:  
-- Custom theme  
-- Custom colors  
-- Styled headers  
+# Custom Theme Example  
+This slide uses custom colors and styling.
 
 ---
 
-<!-- Background image slide -->
+<!-- Background Image -->
 ![bg cover](https://picsum.photos/1920/1080)
 
 # Background Image Slide  
-
-This slide includes a full background image.
+Beautiful background using Marp.
 
 ---
 
 # Code Example
 
 ```python
-def calculate_complexity(n):
-    return n * (n - 1)  # O(n^2)
+def area_circle(r):
+    return 3.14159 * r * r
+Mathematical Equation (Required)
+Time Complexity of Merge Sort:
+
+𝑇
+(
+𝑛
+)
+=
+2
+𝑇
+(
+𝑛
+2
+)
++
+𝑛
+T(n)=2T( 
+2
+n
+​
+ )+n
+Solving gives:
+
+𝑇
+(
+𝑛
+)
+=
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+T(n)=O(nlogn)
+Thank You
+Email: 23f1001080@ds.study.iitm.ac.in
+
+yaml
+Copy code
