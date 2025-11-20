@@ -58,4 +58,16 @@ section {
 ```python
 def area_circle(r):
     return 3.14159 * r * r
-Mathematical Equation (Required)Time Complexity of Merge Sort:$$T(n) = 2T\left(\frac{n}{2}\right) + n$$Thank You!Email for support: 23f1001080@ds.study.iitm.ac.in
+# Mathematical Equation (Required)
+
+## Time Complexity of Merge Sort:
+
+$$
+T(n) = 2T\left(\frac{n}{2}\right) + n
+$$
+
+---
+
+# Thank You!
+
+Email for support: **23f1001080@ds.study.iitm.ac.in**
