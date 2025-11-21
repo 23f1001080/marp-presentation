@@ -6,9 +6,28 @@ paginate: true
 theme: gaia
 ---
 
+<!-- _class: lead -->
+# 📄 Product Documentation  
+### Created by: **23f1001080@ds.study.iitm.ac.in**
+
+---
+
+<!-- _header: Product Docs · v1.0 -->
+<!-- _footer: © 2025 Sakshi | 23f1001080@ds.study.iitm.ac.in -->
+<!-- _backgroundColor: #f0f8ff -->
+
+# Overview  
+This presentation demonstrates all required Marp features:
+
+- Custom theme  
+- Background images  
+- **Slide-specific styling (using Marp directives)**  
+- LaTeX mathematics  
+- Page numbers  
+- Email included  
+
 <style>
 section {
-  background-color: #f0f8ff; /* Light blue background */
   color: #003366;
   font-family: Arial, sans-serif;
 }
@@ -17,33 +36,21 @@ h1 {
 }
 </style>
 
-# 📄 Product Documentation
-### Created by: **23f1001080@ds.study.iitm.ac.in**
-
 ---
 
-# Overview (Using Marp Directive)
-This presentation demonstrates all required Marp features:
-* Custom theme 
-* Background images 
-* **Slide-specific styling (via directive)** * LaTeX mathematics 
-* Page numbers 
-* Email included
-
----
-
+<!-- _class: invert -->
 # Custom Theme Example
-This slide uses the **Gaia** theme along with custom colors defined in the `<style>` block.
+
+This slide uses the **Gaia** theme and global custom CSS.
 
 ---
 
+<!-- _class: lead -->
 ![bg cover](https://picsum.photos/1920/1080)
 
 # Background Image Slide
-This slide uses a live URL background image for a dynamic feel.
 
 <style scoped>
-/* Optional: Scope style to ensure text is readable over the image */
 section {
     color: white; 
     text-shadow: 1px 1px 3px #000000;
@@ -52,15 +59,20 @@ section {
 
 ---
 
-# Algorithmic Complexity and Code
+<!-- _color: #003399 -->
+<!-- _backgroundColor: #e8f0ff -->
+
+# Algorithmic Complexity & Code
 
 ## Code Example
 ```python
 def area_circle(r):
     return 3.14159 * r * r
-# Mathematical Equation (Required)
+```
 
-## Time Complexity of Merge Sort:
+### Time Complexity of Merge Sort
+
+Block math required:
 
 $$
 T(n) = 2T\left(\frac{n}{2}\right) + n
@@ -68,6 +80,7 @@ $$
 
 ---
 
-# Thank You!
+<!-- _class: lead -->
+# Thank You!  
+Contact: **23f1001080@ds.study.iitm.ac.in**
 
-Email for support: **23f1001080@ds.study.iitm.ac.in**
